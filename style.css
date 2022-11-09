@@ -1,0 +1,31 @@
+.countriesCard{
+        width: 70%;
+        color: whitesmoke;
+    }
+@media (max-width:768px) {
+    .countriesCard{
+        width: 100%;
+    }
+}
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 4px;
+}
+.background-img {
+    background-color: rgba(0, 0, 0, 0.63);
+}
+a {
+    text-decoration: none;
+    color:rgb(247, 166, 73);
+    font-weight: 700;
+}
+.card {
+    background-color:rgb(105, 4, 105);
+}
